@@ -1,0 +1,93 @@
+/* navbar section */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+ }
+ .nav-img-title{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+ }
+
+nav span{
+    color: rgb(254, 70, 38);
+}
+
+.nav-img-title img{
+    width: 70px;
+    height: 50px;
+}
+
+nav > ul{
+    display: flex;
+    gap: 20px;
+}
+
+nav li{
+   list-style: none;
+} 
+
+nav a{
+    text-decoration: none;
+}
+/* banner section */
+
+.banner{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.banner img{
+    margin: auto;
+    width: 100%;
+}
+.center{
+    position: absolute;
+    top: 140px;
+    margin-left: 300px;
+    transform: translate(-50% -50%);
+    color: #FFFFFF;
+    font-size: 70px;
+    font-family: sans-serif;    
+}
+.center-1{
+    position: absolute;
+    top: 300px;
+    margin-left: 400px;
+    transform: translate(-50% -50%);
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.center-2{
+    position: absolute;
+    top: 400px;
+    margin-left: 280px;
+    background: rgb(213, 201, 201);
+    background: rgba(213, 204, 204, 0.5);
+    color: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+}
+.center-3{
+    display: flex;
+    gap: 30px;
+    width: 665px;
+}
+.C1{
+    color: black;  
+    border: none;
+    padding: 10px;
+    border-radius: 7px;
+    width: 150px;
+    text-align: left;
+}
+.btn-primary-content{
+    background-color: rgb(254, 70, 38);
+    color: white;  
+    padding: 10px 25px;
+    border: none;
+    border-radius: 7px;
+}
