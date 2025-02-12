@@ -91,3 +91,91 @@ nav a{
     border: none;
     border-radius: 7px;
 }
+/* himalayan section */
+
+.kashmir{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: sans-serif;
+    margin-top: 70px;
+}
+.C3{
+    position: relative;
+    text-align: center;
+    font-family: sans-serif;
+}
+/*image gird section */
+
+.choose{
+    display: grid;
+    font-family: sans-serif;
+    margin-top: 50px;
+  }
+ .gird-1{
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    gap: 30px;
+}
+.gird-2{
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    gap: 20px;
+}
+.gird-3{ 
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    gap: 20px;   
+}
+.container-1{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.bangla{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* box desgin section */
+
+.many h1{
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 70px;
+}
+.many p{
+    text-align: center;
+    font-family: sans-serif;
+}
+.box{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    font-family: sans-serif;
+}
+.box img{
+    height: 50px;   
+}
+.box-1{
+    background-color: rgb(241, 235, 226);
+    width: 550px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.BoB{
+    display: flex;
+    justify-content: center;
+}
+.BoB img{
+    height: 50px;
+}
+.BoB-1{
+    background-color: rgb(231, 213, 231);
+    width: 550px;
+    padding: 20px;
+    border-radius: 20px;
+}
