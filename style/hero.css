@@ -338,3 +338,199 @@ nav a{
     border-radius: 5px;
     font-size: 20px;
 }
+/* footer section */
+
+.footer-container{
+    margin-top: 50px;
+    width: 1465px;
+    height: 500px;
+    border: 0;
+    background: rgb(211, 205, 205);
+  background: rgba(211, 204, 204, 0.5);
+    padding:20px;
+   font-family: sans-serif;
+}
+
+.footer-container span{
+    color: rgb(254, 70, 38);
+}
+
+.footer-container-1{
+    margin-left: 40%;
+    margin-top: 100px;
+}
+.footer-container-1 img{
+    height: 40px;
+    width: 45px;
+}
+
+.footer-container-2 img{
+    height: 30px;
+}
+.footer-container-2{
+    text-align: center;  
+}
+/* my responsive wibsite */
+
+/* mobile device */
+
+@media screen and (max-width: 600px) {
+    .container{
+        flex-direction: column;;
+        text-align: center;
+    }
+    .nav-img-title{
+        flex-direction: column;
+    }
+    nav > ul{
+        flex-direction: column;
+    }
+    .banner{
+        flex-direction: column;
+    }
+    .banner{
+        display: flex;
+        justify-content: center;
+    }
+    .banner img{
+        /* width: 100%; */
+        right: 100px;
+        height: 500px;
+    }
+    /* .center, */
+    .center-1{
+        right: 150px;
+        margin-top: 180px;
+        white-space: nowrap;
+    }
+    .center{
+        margin-top: 270px;
+        right: 150px;
+        color: #FFFFFF;
+        font-size: 2rem;
+        white-space: nowrap;
+    }
+    .center-2{
+        right: 160px;
+        margin-top: 200px;
+        margin-top: 180px;
+    }
+    .center-3{
+        flex-direction: column; 
+        width: 250px;
+       
+     
+    }
+    .C1{
+        width: 250px;
+    }
+    /* #find-now{
+        margin-left: 25px;
+        width: 350px;
+        height: 50px;
+    } */
+    /* img gird section */
+    .choose img{
+        width: 100%;
+        height: 300px;
+    }
+    .gird-1{
+        flex-direction: column;
+        margin-right: 50%;
+        width: 100%;
+    }
+    .gird-2{
+        flex-direction: column;
+        margin-right: 50%;
+        width: 100%;
+    }
+    .gird-3{
+        flex-direction: column;
+        margin-right: 50%;
+        width: 100%;
+    }
+    .kashmir{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 20px;
+        width: auto;
+    }
+    .kashmir img{
+        margin-top: 40px;
+    }
+    /* box section */
+    .BoB{
+        width: 100%;
+    }
+     .box{
+        flex-direction: column;
+     }
+     .box-1{
+        width: auto;
+     }
+     /* deals or discaunt section */
+    .img-container img{
+        height: 600px;
+        width: 100%;
+        margin-left: 5px;
+        border-radius: 20px;
+        
+    }
+    .img-over-box-1-3{
+        margin-left: 50px;
+        margin-right: 50px;
+        top: 100px;
+        height: 300px;
+        width: auto;
+        align-items: center;
+        justify-content: center;
+    }
+    .img-over-box-2{
+        width: auto;
+        margin-right: 50px;
+        top: 100px;
+        height: 300px;
+    }
+    .see-all-packages{
+        display: none;
+    }
+    /* mountain section */
+    .mountain-container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .mountain img{
+        margin-top: 50px;
+        height: 400px;
+        width: 100%;
+    }
+    .mountain h2{
+        top: 150px;
+        white-space: nowrap;
+    }
+    /* login form section */
+.advancd{
+    display: flex; 
+    flex-direction: column-reverse;
+    margin-top: 80px;
+}
+.advancd img{
+    margin-top: 50px;
+    width: 100%;
+}
+.login-form-container{
+    width: auto;
+}
+.rotate-img-2{
+    margin-top: 200px;
+    white-space: nowrap;
+    rotate: 15deg;
+}
+/* footer section */
+.footer-container{
+    width: auto;
+}
+.footer-container-1{
+    white-space: nowrap;
+}
+}
