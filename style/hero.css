@@ -179,13 +179,36 @@ nav a{
     padding: 20px;
     border-radius: 20px;
 }
+/* this category is created by me  */
+
+.new-content{
+    margin-top: 70px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: sans-serif;
+}
+.new-content-text{
+    text-align: center;
+}
+.new-content-text h1{
+    font-size: 2.5rem;
+}
+.food-img-section{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+.food-img-section img{
+    border-radius: 10px;
+}
 /* deals & discounts section */
 
 .deals{
     text-align: center;
     font-family: sans-serif;
     font-size: 20px;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 .img-over-box-container{
     display: grid;
@@ -246,6 +269,12 @@ nav a{
     margin-left: 10%;
     margin-right: 10%;
 }
+.mountain-container img{
+    height: 425px;
+}
+.mountain-text{
+    font-size: 1.1rem;
+}
 .line{
     line-height: 1.7;
 }
@@ -275,7 +304,7 @@ nav a{
     margin-right: 10%;
   margin-left: 10%;
     font-family: sans-serif;
-    margin-top: 190px;
+    margin-top: 60px;
 }
 .advancd button{
     padding: 15px 35px;
@@ -468,6 +497,14 @@ nav a{
      .box-1{
         width: auto;
      }
+     /* this category is created by me  */
+    .food-img-section{
+        flex-direction: column;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .food-img-section img{
+        width: 100%;
+    }
      /* deals or discaunt section */
     .img-container img{
         height: 600px;
@@ -508,6 +545,18 @@ nav a{
         top: 150px;
         white-space: nowrap;
     }
+.new-section{
+    flex-direction: column-reverse;
+}
+.new-section img{
+    width: 100%;
+}
+.food-text{
+    margin-left: 8%;
+}
+.restaurant{
+    margin-top: 400px;
+}
     /* login form section */
 .advancd{
     display: flex; 
